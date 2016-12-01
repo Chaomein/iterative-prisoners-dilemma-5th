@@ -7,8 +7,8 @@
 ####
 
 team_name = 'Victorious Secret' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+strategy_name = 'The one Strat'
+strategy_description = 'Regardless of the score, the algorythem will always perform the same task.'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
@@ -68,7 +68,7 @@ if __name__ == '__main__':
               result='b')    
                        
 # Test A: Betray then collude
-if test_move(my_history = 'bc',
+if test_move(my_history = 'bbc',
             (their_history) = ' ',
             my_score = 0, 
             their_score = 0,
